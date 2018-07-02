@@ -1,0 +1,176 @@
+body, html {
+  min-height: 100%;
+  background-color: white;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-weight: 0;
+  transform: uppercase;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+p, li {
+  font-size: 1.25em;
+}
+
+.break {
+  width: 10%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 0.1em;
+}
+
+/* Nav bar */
+.navbar img {
+  height: 2.75em;
+  margin-top: -25% !important;
+}
+
+.navbar a {
+  color: #5e507e !important;
+}
+
+/* Hero */
+.hero {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+}
+
+.hero h1 {
+  color: #5e507e;
+  font-size: 4.5em;
+}
+
+.hero .break {
+  background-color: #5e507e;
+}
+
+.hero .btn {
+  margin-top: 2%;
+  transition: background .25s;
+  background-color: transparent;
+  border: 1px solid #5e507e;
+  border-radius: 100px;
+  color: #5e507e;
+}
+
+.hero .btn:hover {
+  transition: background .25s;
+  background-color: #5e507e;
+  color: white;
+}
+
+/* Projects */
+.project {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+  color: white;
+}
+
+.project .break {
+  background-color: white;
+}
+
+.project .row {
+  transform: translateY(50%);
+}
+
+.project img {
+  position: absolute;
+  border-radius: 2%;
+  z-index: -1;
+}
+
+.project #img1 {
+  transform: translate(-50%, -40%);
+  max-width: 65%;
+}
+
+.project #top-img {
+  transform: translate(15%, -20%);
+  z-index: 1;
+  max-width: 75%;
+  margin-top: 25%;
+}
+
+.project #img2 {
+  transform: translate(-50%, -15%);
+  max-width: 40%;
+  margin-top: 50%;
+  margin-right: 25%;
+}
+
+/* Contact */
+.contact {
+  background-color: #6dc1dd;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.contact-text {
+  padding: 0 5%;
+  text-align: center;
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact .break {
+  background-color: white;
+  margin: auto;
+  margin-top: 20em;
+  margin-bottom: 20em;
+}
+
+.contact input {
+  border-radius: 10px;
+  border-color: white;
+  background-color: transparent;
+  text-align: center;
+  width: 50%;
+  transform: translateX(50%);
+  height: 3em;
+  color: white;
+}
+
+.contact input::placeholder {
+  color: white;
+  opacity: 0.75;
+}
+
+.contact input:focus {
+  border-radius: 10px;
+  border-color: white;
+  background-color: transparent;
+}
+
+/* Footer */
+#footer {
+  background-color: white;
+  text-align: center;
+  margin: 2%;
+}
+
+.leftSide {
+  text-align: left;
+}
+
+.rightSide {
+  text-align: right;
+}
+
+.logo{
+  max-width: 20%;
+}

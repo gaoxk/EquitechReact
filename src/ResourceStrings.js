@@ -13,7 +13,7 @@ const ResourceStrings = {
     sign_up: 'Sign Up',
     starterhacks: 'StarterHacks',
     starterhacks_color: '#cc98c4',
-    starterhacks_header: 'Introducing beginners of tech, regardless of career interests.',
+    starterhacks_header: 'Introducing beginners to tech, regardless of career interests.',
     starterhacks_description: 'StarterHacks is Equitechs first initiative. It is an annual hackathon held at the University of Waterloo, and was where Equitech tested its concept, processes, and technology. StarterHacks focuses on inter-disciplinary collaboration while keeping an emphasis on learning.\n In both its runs so far, StarterHacks has achieved about 50% female participation, defying hackathon norms.',
     tohacks: 'TOHacks',
     tohacks_header: 'Fostering an enviroment to embolden students towards a career in STEAM.',

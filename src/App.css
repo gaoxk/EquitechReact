@@ -44,6 +44,14 @@ p, li {
   text-align: left;
 }
 
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 30%;
+  width: 50%;
+  color: #404041;
+}
+
 .hero h1 {
   color: #5e507e;
   font-size: 4.5em;

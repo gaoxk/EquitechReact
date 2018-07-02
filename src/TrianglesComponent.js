@@ -15,8 +15,7 @@ class TrianglesComponent extends Component {
     this.animate.bind();
   }
 
-  animate (t) {
-    console.log(t);
+  animate () {;
     let delLR = this.state.dLR;
     let delRL = this.state.dRL;
 
@@ -49,9 +48,7 @@ class TrianglesComponent extends Component {
    }
 
   render() {
-    const { width, height, deltaLR, deltaRL} = this.state;
-    console.log("lr " + this.state.dLR + " rl " + this.state.dRL);
-    console.log("delta lr " + deltaLR + " delta rl " + deltaRL);
+    const { width, height, deltaLR, deltaRL} = this.state
     return (
       <Stage
         width={width}

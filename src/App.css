@@ -63,9 +63,21 @@ p, li {
 .hero-text {
   text-align: left;
   position: absolute;
-  top: 40%;
   width: 50%;
+  bottom: 5%;
   color: #404041;
+}
+
+@media (max-width: 1024px) {
+  .hero-text {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-text {
+    width: 50%;
+  }
 }
 
 .hero h1 {

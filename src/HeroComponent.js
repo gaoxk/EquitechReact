@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import TrianglesComponent from './TrianglesComponent';
 import NavComponent from './NavComponent';
 import ResourceStrings from './ResourceStrings';
 
@@ -6,7 +7,8 @@ class HeroComponent extends Component {
     render() {
         return (
             <div className="hero">
-                <div className="container">
+                <TrianglesComponent />
+                <div className="container-fluid hero-cont">
                     <NavComponent />
                     <div className="hero-text">
                       <h1>{ResourceStrings.hero_h1}</h1>

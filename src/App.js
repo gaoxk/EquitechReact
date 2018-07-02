@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import TrianglesComponent from './TrianglesComponent';
 import HeroComponent from './HeroComponent';
 import ProjectComponent from './ProjectComponent';
 import ContactComponent from './ContactComponent';
@@ -11,7 +10,6 @@ class App extends Component {
     render() {
         return (
             <div>
-                <TrianglesComponent />
                 <HeroComponent />
                 <ProjectComponent
                     title={ResourceStrings.starterhacks}

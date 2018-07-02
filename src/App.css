@@ -1,5 +1,7 @@
 body, html {
   min-height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
   background-color: white;
   color: black;
   font-family: 'Montserrat', sans-serif;
@@ -42,6 +44,10 @@ p, li {
   position: relative;
   overflow: hidden;
   text-align: left;
+}
+
+.hero-cont {
+  padding-left: 5%;
 }
 
 .hero-text {

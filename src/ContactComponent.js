@@ -12,6 +12,9 @@ class ContactComponent extends Component {
             		<div className="form-group">
             			  <input type="email" className="form-control" id="email" placeholder="your@email.here" />
             		</div>
+                <button type="button" className="btn">
+                  <h4>{ResourceStrings.sign_up}</h4>
+                </button>
             		<h3>{ResourceStrings.contact_or}
                     <a href="mailto:contact@equitech.ca">
                       <strong>contact@equitech.ca</strong>

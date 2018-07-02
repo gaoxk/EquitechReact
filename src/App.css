@@ -28,6 +28,16 @@ p, li {
   font-size: 0.1em;
 }
 
+.btn {
+  margin-top: 2%;
+  transition: background .25s;
+  background-color: transparent;
+}
+
+.btn:hover {
+  transition: background .25s;
+}
+
 /* Nav bar */
 .navbar img {
   height: 2.75em;
@@ -53,7 +63,7 @@ p, li {
 .hero-text {
   text-align: left;
   position: absolute;
-  top: 30%;
+  top: 40%;
   width: 50%;
   color: #404041;
 }
@@ -68,18 +78,24 @@ p, li {
 }
 
 .hero .btn {
-  margin-top: 2%;
-  transition: background .25s;
-  background-color: transparent;
   border: 1px solid #5e507e;
   border-radius: 100px;
   color: #5e507e;
 }
 
 .hero .btn:hover {
-  transition: background .25s;
   background-color: #5e507e;
   color: white;
+}
+
+/* Triangles */
+@keyframes pulse {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0.75;
+  }
 }
 
 /* Projects */
@@ -146,6 +162,17 @@ p, li {
   margin: auto;
   margin-top: 20em;
   margin-bottom: 20em;
+}
+
+.contact .btn {
+  border: 1px solid white;
+  border-radius: 100px;
+  color: white;
+}
+
+.contact .btn:hover {
+  background-color: white;
+  color: #6dc1dd;
 }
 
 .contact input {

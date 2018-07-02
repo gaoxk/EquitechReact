@@ -10,6 +10,7 @@ const ResourceStrings = {
     equitech_description_1: 'Being dedicated to diversity while planning your hackathon can be difficult. At Equitech we acknowledge that and are dedicated to tackling the lack of diversity in tech by ensuring that your planning process is as seamless as possible, while keeping your most important metrics on the forefront.',
     equitech_description_2: 'Join us in our mission to make the tech industry as inclusive as possible',
     projects: 'Projects',
+    sign_up: 'Sign Up',
     starterhacks: 'StarterHacks',
     starterhacks_color: '#cc98c4',
     starterhacks_header: 'Introducing beginners of tech, regardless of career interests.',

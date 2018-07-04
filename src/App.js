@@ -16,12 +16,14 @@ class App extends Component {
                     header={ResourceStrings.starterhacks_header}
                     description={ResourceStrings.starterhacks_description}
                     color={ResourceStrings.starterhacks_color}
+                    id={'proj1'}
                 />
                 <ProjectComponent
                     title={ResourceStrings.tohacks}
                     header={ResourceStrings.tohacks_header}
                     description={ResourceStrings.tohacks_description}
                     color={ResourceStrings.tohacks_color}
+                    id={'proj2'}
                 />
                 <ContactComponent />
                 <FooterComponent />

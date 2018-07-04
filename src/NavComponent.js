@@ -15,7 +15,7 @@ class NavComponent extends Component {
           	 		</div>
           	    <div className='collapse navbar-collapse'>
           	      <ul className='nav navbar-nav' id='myNavbar'>
-          				  <li><a href='#project'><h3>{ResourceStrings.projects}</h3></a></li>
+          				  <li><a href='#proj1'><h3>{ResourceStrings.projects}</h3></a></li>
           	      	<li><a href='#contact'><h3>{ResourceStrings.contact}</h3></a></li>
           	      </ul>
           	    </div>

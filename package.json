@@ -2,6 +2,7 @@
   "name": "equitech-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": " https://gaoxk.github.io/EquitechReact",
   "dependencies": {
     "konva": "^2.1.6",
     "react": "^16.4.1",
@@ -15,11 +16,14 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "lint": "./node_modules/.bin/eslint src --fix"
+    "lint": "./node_modules/.bin/eslint src --fix",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "eslint": "^5.0.1",
     "eslint-plugin-react": "^7.10.0",
-    "eslint-watch": "^4.0.0"
+    "eslint-watch": "^4.0.0",
+    "gh-pages": "^1.2.0"
   }
 }

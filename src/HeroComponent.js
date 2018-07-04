@@ -11,7 +11,7 @@ class HeroComponent extends Component {
                 <div className='container-fluid hero-cont'>
                     <NavComponent />
                     <div className='hero-text'>
-                        <h1>{ResourceStrings.hero_h1}</h1>
+                      <h1>{ResourceStrings.hero_h1}</h1>
                   		<h2>{ResourceStrings.hero_h2}</h2>
                   		<div className='break'> &nbsp </div>
                   		<p>{ResourceStrings.hero_p1}</p>

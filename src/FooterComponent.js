@@ -6,7 +6,8 @@ import logo_big from './assets/logo_big.png';
 class FooterComponent extends Component {
     render() {
         return (
-            <div className='container-fluid' id='footer'>
+          <div className='footer'>
+            <div className='container-fluid'>
                 <div className='row'>
                     <div className='col-md-6 leftSide'>
                         <img className='logo' src={logo_big} />
@@ -18,6 +19,7 @@ class FooterComponent extends Component {
                     </div>
                 </div>
             </div>
+          </div>
         );
     }
 }

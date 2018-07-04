@@ -44,7 +44,7 @@ class TrianglesComponent extends Component {
     }
 
     componentDidMount() {
-        setInterval(() => this.animate(this), 50);
+        setInterval(() => this.animate(this), 40);
     }
 
     render() {

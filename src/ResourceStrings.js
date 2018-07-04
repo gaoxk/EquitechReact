@@ -19,6 +19,7 @@ const ResourceStrings = {
     tohacks_header: 'Fostering an enviroment to embolden students towards a career in STEAM.',
     tohacks_color: '#616ab1',
     tohacks_description: 'We worked with TOHacks team to help plan and strategize their first hackathon. It is a 12-hour hackathon for high school and university students from the Toronto area and held at the University of Toronto. TOHacks focuses on bringing an inclusive and diverse group of students to put forth their innovative ideas for a day of problem-solving.',
+    visit: 'Visit Event Website'
 };
 
 export default ResourceStrings;

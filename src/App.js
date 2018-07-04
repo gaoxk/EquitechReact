@@ -6,11 +6,14 @@ import FooterComponent from './FooterComponent';
 import ResourceStrings from './ResourceStrings';
 import './App.css';
 
+import TrianglesProjectComponent from './TrianglesProjectComponent';
+
 class App extends Component {
     render() {
         return (
             <div>
                 <HeroComponent />
+                <TrianglesProjectComponent />
                 <ProjectComponent
                     title={ResourceStrings.starterhacks}
                     header={ResourceStrings.starterhacks_header}

@@ -52,7 +52,7 @@ class TrianglesComponent extends Component {
         return (
             <Stage
                 width={width}
-                height={width}
+                height={height}
                 style={{position: 'absolute', overflow: 'none'}}
                 opacity={0.5}
             >

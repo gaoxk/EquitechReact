@@ -18,7 +18,7 @@ class HeroComponent extends Component {
                   		<p>{ResourceStrings.hero_p2}</p>
                       <a href='#contact'>
           		          <button type='button' className='btn'>
-                            <h4>{ResourceStrings.contact}</h4>                          
+                            <h4>{ResourceStrings.contact}</h4>
                         </button>
                       </a>
                   </div>

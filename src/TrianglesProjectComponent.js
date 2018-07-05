@@ -12,7 +12,7 @@ class TrianglesProjectComponent extends Component {
             width: window.innerWidth,
             height: window.innerHeight
         };
-        this.animate.bind();
+        this.animate = this.animate.bind(this);
     }
 
     animate () {
@@ -20,17 +20,17 @@ class TrianglesProjectComponent extends Component {
         let delRL = this.state.dRL;
 
         if(this.state.deltaLR > 20){
-            delLR=-0.1;
+            delLR=-0.5;
         }else if(this.state.deltaLR < -30){
-            delLR=0.1;
+            delLR=0.5;
         }else{
             delLR=this.state.dLR;
         }
 
         if(this.state.deltaRL > 15){
-            delRL=-0.1;
+            delRL=-0.5;
         }else if(this.state.deltaRL < -20){
-            delRL=0.1;
+            delRL=0.5;
         }else{
             delRL=this.state.dRL;
         }
@@ -44,7 +44,11 @@ class TrianglesProjectComponent extends Component {
     }
 
     componentDidMount() {
-      setInterval(() => this.animate(this), 10);
+      window.addEventListener('scroll', this.animate, { passive: true });
+    }
+
+    componentWillUnmount() {
+      window.removeEventListener('scroll', this.animate);
     }
 
     render() {

@@ -12,10 +12,10 @@ class TrianglesComponent extends Component {
             width: window.innerWidth,
             height: window.innerHeight
         };
-        this.animate.bind();
+        this.animate = this.animate.bind(this);
     }
 
-    animate () {
+    animate (event) {
         let delLR = this.state.dLR;
         let delRL = this.state.dRL;
 
@@ -44,7 +44,11 @@ class TrianglesComponent extends Component {
     }
 
     componentDidMount() {
-        setInterval(() => this.animate(this), 40);
+      window.addEventListener('mousemove', this.animate, { passive: true });
+    }
+
+    componentWillUnmount() {
+      window.removeEventListener('mousemove', this.animate);
     }
 
     render() {

@@ -12,17 +12,16 @@ import TrianglesProjectComponent from './TrianglesProjectComponent';
 class App extends Component {
   constructor(props){
     super(props);
-    this.state = {backgroundColor: 'white'};
   }
   componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll, { passive: true })
+    window.addEventListener('scroll', this.handleScroll, { passive: true });
+    $('body').addClass('animated fadeIn');
+    setTimeout( () => $('.hero h1').addClass('animated fadeInUp'), 100);
   }
 
   componentWillUnmount() {
-    window.removeEventListener('scroll', this.handleScroll)
+    window.removeEventListener('scroll', this.handleScroll);
   }
-
-
 
   handleScroll(event) {
     const isScrolledIntoView = ($elem, $window) => {
@@ -73,26 +72,26 @@ class App extends Component {
     render() {
         return (
             <div>
-                <HeroComponent />
-                <TrianglesProjectComponent />
-                <ProjectComponent
-                    color={ResourceStrings.starterhacks_color}
-                    description={ResourceStrings.starterhacks_description}
-                    header={ResourceStrings.starterhacks_header}
-                    id={'proj1'}
-                    title={ResourceStrings.starterhacks}
-                    website={ResourceStrings.starterhacks_web}
-                />
-                <ProjectComponent
-                    color={ResourceStrings.tohacks_color}
-                    description={ResourceStrings.tohacks_description}
-                    header={ResourceStrings.tohacks_header}
-                    id={'proj2'}
-                    title={ResourceStrings.tohacks}
-                    website={ResourceStrings.tohacks_web}
-                />
-                <ContactComponent />
-                <FooterComponent />
+              <HeroComponent />
+              <TrianglesProjectComponent />
+              <ProjectComponent
+                  color={ResourceStrings.starterhacks_color}
+                  description={ResourceStrings.starterhacks_description}
+                  header={ResourceStrings.starterhacks_header}
+                  id={'proj1'}
+                  title={ResourceStrings.starterhacks}
+                  website={ResourceStrings.starterhacks_web}
+              />
+              <ProjectComponent
+                  color={ResourceStrings.tohacks_color}
+                  description={ResourceStrings.tohacks_description}
+                  header={ResourceStrings.tohacks_header}
+                  id={'proj2'}
+                  title={ResourceStrings.tohacks}
+                  website={ResourceStrings.tohacks_web}
+              />
+              <ContactComponent />
+              <FooterComponent />
             </div>
         );
     }

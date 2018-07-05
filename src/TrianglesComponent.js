@@ -17,7 +17,7 @@ class TrianglesComponent extends Component {
     }
 
     onMouseMove (event) {
-
+  //  console.log(event);
     }
 
     animate (event) {

@@ -40,6 +40,12 @@ button:hover {
 }
 
 /* Nav bar */
+.navbar {
+  background-color: transparent;
+  border: 0px;
+  float: left;
+}
+
 .navbar img {
   height: 2.75em;
   margin-top: -25% !important;

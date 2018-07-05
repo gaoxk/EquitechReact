@@ -7,7 +7,7 @@ class NavComponent extends Component {
     render() {
         return (
             <Nav className='navbar' role='navigation'>
-          	  <div className='container-fluid'>
+
           			<div className='navbar-header'>
           				<h2 className='navbar-brand brand-name'>
           					<img className='pull-left'src={logo} />
@@ -19,7 +19,7 @@ class NavComponent extends Component {
           	      	<li><a href='#contact'><h3>{ResourceStrings.contact}</h3></a></li>
           	      </ul>
           	    </div>
-          	  </div>
+        
 	           </Nav>
         );
     }

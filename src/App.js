@@ -10,9 +10,6 @@ import $ from 'jquery';
 import TrianglesProjectComponent from './TrianglesProjectComponent';
 
 class App extends Component {
-  constructor(props){
-    super(props);
-  }
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll, { passive: true });
     $('body').addClass('animated fadeIn');
@@ -56,9 +53,9 @@ class App extends Component {
 
     if (isScrolledIntoView($('#proj2'), $(window))) {
       $('body').css('background-color', '#616ab1');
-      $('.proj2 #img1').addClass('animated fadeIn');
+      setTimeout($('.proj2 #img1').addClass('animated fadeIn'), 500);
       $('.proj2 #top-img').addClass('animated bounceInLeft');
-      $('.proj2 #img2').addClass('animated fadeIn');
+      setTimeout($('.proj2 #img2').addClass('animated fadeIn'), 750);
       $('#proj2').css('visibility', 'visible');
     }else{
       $('#proj2').css('visibility', 'hidden');

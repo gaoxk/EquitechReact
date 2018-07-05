@@ -13,6 +13,11 @@ class TrianglesComponent extends Component {
             height: window.innerHeight
         };
         this.animate = this.animate.bind(this);
+        this.onMouseMove = this.onMouseMove.bind(this);
+    }
+
+    onMouseMove (event) {
+
     }
 
     animate (event) {
@@ -44,11 +49,12 @@ class TrianglesComponent extends Component {
     }
 
     componentDidMount() {
-      window.addEventListener('mousemove', this.animate, { passive: true });
+      setInterval(this.animate, 40);
+      window.addEventListener('mousemove', this.onMouseMove, { passive: true });
     }
 
     componentWillUnmount() {
-      window.removeEventListener('mousemove', this.animate);
+      window.removeEventListener('mousemove', this.onMouseMove);
     }
 
     render() {

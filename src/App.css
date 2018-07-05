@@ -70,13 +70,13 @@ button:hover {
   color: #404041;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
   .hero-text {
     width: 90%;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   .hero-text {
     width: 50%;
   }
@@ -84,7 +84,6 @@ button:hover {
 
 .hero h1 {
   color: #5e507e;
-  font-size: 4.5em;
 }
 
 .hero .break {
@@ -144,21 +143,23 @@ button:hover {
 }
 
 .project #img1 {
-  transform: translate(-50%, -40%);
+  transform: translate(-10%, -25%);
   max-width: 65%;
 }
 
 .project #top-img {
   z-index: 1;
-  max-width: 75%;
-  margin-top: 25%;
+  max-width: 80%;
+  margin-top: 15%;
+  padding-left: 15% !important;
 }
 
 .project #img2 {
-  transform: translate(-50%, -15%);
+  z-index: 2;
+  transform: translate(-10%, -12%);
   max-width: 40%;
   margin-top: 50%;
-  margin-right: 25%;
+  margin-left: 8%;
 }
 
 /* Contact */

@@ -16,8 +16,8 @@ class ContactComponent extends Component {
                         <h4>{ResourceStrings.sign_up}</h4>
                     </button>
                 		<h3>{ResourceStrings.contact_or}
-                        <a href='mailto:contact@equitech.ca'>
-                            <strong>contact@equitech.ca</strong>
+                        <a href={'mailto:' + ResourceStrings.contact_or}>
+                            <strong>{ResourceStrings.equitech_email}</strong>
                         </a>
                     </h3>
             	</div>

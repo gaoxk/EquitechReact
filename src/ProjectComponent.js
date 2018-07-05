@@ -23,9 +23,11 @@ class ProjectComponent extends Component {
             		 		<h2>{this.props.header}</h2>
             				<div className='break'> &nbsp </div>
             				<p>{this.props.description}</p>
-                    <button type='button' className='btn'>
-                        <h4>{ResourceStrings.visit}</h4>
-                    </button>
+                    <a href={this.props.website} >
+                      <button type='button' className='btn'>
+                            <h4>{ResourceStrings.visit}</h4>
+                      </button>
+                    </a>
             			</div>
             		</div>
             	</div>

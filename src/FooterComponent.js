@@ -14,8 +14,8 @@ class FooterComponent extends Component {
                         <h5>(C) 2018 Equitech</h5>
                     </div>
                     <div className='col-md-6 rightSide'>
-                        <a href='#project-start'><h4>{ResourceStrings.projects}</h4></a>
-                        <a href='mailto:contact@equitech.ca'><h4>{ResourceStrings.contact}</h4></a>
+                        <a href='#proj1'><h4>{ResourceStrings.projects}</h4></a>
+                        <a href='#contact'><h4>{ResourceStrings.contact}</h4></a>
                     </div>
                 </div>
             </div>

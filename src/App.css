@@ -29,13 +29,13 @@ p, li {
   font-size: 0.1em;
 }
 
-.btn {
+button {
   margin-top: 2%;
   transition: background .25s;
   background-color: transparent;
 }
 
-.btn:hover {
+button:hover {
   transition: background .25s;
 }
 
@@ -91,13 +91,13 @@ p, li {
   background-color: #5e507e;
 }
 
-.hero .btn {
+.hero button {
   border: 1px solid #5e507e;
   border-radius: 100px;
   color: #5e507e;
 }
 
-.hero .btn:hover {
+.hero button:hover {
   background-color: #5e507e;
   color: white;
 }
@@ -116,13 +116,13 @@ p, li {
   background-color: white;
 }
 
-.project .btn {
+.project button {
   border: 1px solid white;
   border-radius: 100px;
   color: white;
 }
 
-.project .btn:hover {
+.project button:hover {
   background-color: white;
   border-color: transparent;
   color: #5e507e;
@@ -184,13 +184,13 @@ p, li {
   margin-bottom: 20em;
 }
 
-.contact .btn {
+.contact button {
   border: 1px solid white;
   border-radius: 100px;
   color: white;
 }
 
-.contact .btn:hover {
+.contact button:hover {
   background-color: white;
   color: #6dc1dd;
 }

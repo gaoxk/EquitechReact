@@ -76,18 +76,20 @@ class App extends Component {
                 <HeroComponent />
                 <TrianglesProjectComponent />
                 <ProjectComponent
-                    title={ResourceStrings.starterhacks}
-                    header={ResourceStrings.starterhacks_header}
-                    description={ResourceStrings.starterhacks_description}
                     color={ResourceStrings.starterhacks_color}
+                    description={ResourceStrings.starterhacks_description}
+                    header={ResourceStrings.starterhacks_header}
                     id={'proj1'}
+                    title={ResourceStrings.starterhacks}
+                    website={ResourceStrings.starterhacks_web}
                 />
                 <ProjectComponent
-                    title={ResourceStrings.tohacks}
-                    header={ResourceStrings.tohacks_header}
-                    description={ResourceStrings.tohacks_description}
                     color={ResourceStrings.tohacks_color}
+                    description={ResourceStrings.tohacks_description}
+                    header={ResourceStrings.tohacks_header}
                     id={'proj2'}
+                    title={ResourceStrings.tohacks}
+                    website={ResourceStrings.tohacks_web}
                 />
                 <ContactComponent />
                 <FooterComponent />

@@ -16,12 +16,14 @@ class HeroComponent extends Component {
                   		<div className='break'> &nbsp </div>
                   		<p>{ResourceStrings.hero_p1}</p>
                   		<p>{ResourceStrings.hero_p2}</p>
-        		          <button type='button' className='btn'>
-                            <h4>{ResourceStrings.contact}</h4>
+                      <a href='#contact'>
+          		          <button type='button' className='btn'>
+                            <h4>{ResourceStrings.contact}</h4>                          
                         </button>
-                    </div>
-                </div>
-            </div>
+                      </a>
+                  </div>
+              </div>
+          </div>
         );
     }
 }

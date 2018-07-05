@@ -5,7 +5,7 @@ body, html {
   background-color: white;
   color: black;
   font-family: 'Montserrat', sans-serif;
-  transition: background .5s ease, visibility .2s ease; 
+  transition: background .5s ease, visibility .2s ease;
 }
 
 h1{

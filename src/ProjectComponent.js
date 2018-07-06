@@ -6,17 +6,14 @@ import ResourceStrings from './ResourceStrings';
 
 class ProjectComponent extends Component {
     render() {
-        const style = {
-            backgroundColor: this.props.color,
-        };
         return (
             <div className='project' id={this.props.id}>
             	<div className='container'>
             		<div className='row'>
             			<div className={'col-md-6 ' + this.props.id}>
-            				<img id='img1' src={sh1}/>
-            				<img id='top-img' src={sh2}/>
-            				<img id='img2' src={sh3}/>
+            				<img id='img1' src={sh1} alt={ResourceStrings.img_1_alt + this.props.title}/>
+            				<img id='top-img' src={sh2} alt={ResourceStrings.img_top_alt + this.props.title}/>
+            				<img id='img2' src={sh3} alt={ResourceStrings.img_2_alt + this.props.title}/>
             			</div>
             			<div className='col-md-6'>
             		 		<h1>{this.props.title}</h1>

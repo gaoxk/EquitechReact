@@ -10,7 +10,7 @@ class NavComponent extends Component {
           			<Navbar.Header>
                   <Navbar.Brand>
                   <h2>
-          					<img className='pull-left'src={logo} />
+          					<img className='pull-left' src={logo} alt={ResourceStrings.equitech_logo_alt}/>
           			 	</h2>
                   </Navbar.Brand>
           	 		</Navbar.Header>

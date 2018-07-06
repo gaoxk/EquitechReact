@@ -42,7 +42,7 @@ class App extends Component {
     }
 
     if (isScrolledIntoView($('#proj1'), $(window))) {
-      $('body').css('background-color', '#cc98c4');
+      $('body').css('background-color', ResourceStrings.starterhacks_color);
       $('.proj1 #img1').addClass('animated fadeIn');
       $('.proj1 #top-img').addClass('animated bounceInLeft');
       $('.proj1 #img2').addClass('animated fadeIn');
@@ -52,7 +52,7 @@ class App extends Component {
     }
 
     if (isScrolledIntoView($('#proj2'), $(window))) {
-      $('body').css('background-color', '#616ab1');
+      $('body').css('background-color', ResourceStrings.tohacks_color);
       setTimeout($('.proj2 #img1').addClass('animated fadeIn'), 500);
       $('.proj2 #top-img').addClass('animated bounceInLeft');
       setTimeout($('.proj2 #img2').addClass('animated fadeIn'), 750);
@@ -72,7 +72,6 @@ class App extends Component {
               <HeroComponent />
               <TrianglesProjectComponent />
               <ProjectComponent
-                  color={ResourceStrings.starterhacks_color}
                   description={ResourceStrings.starterhacks_description}
                   header={ResourceStrings.starterhacks_header}
                   id={'proj1'}
@@ -80,7 +79,6 @@ class App extends Component {
                   website={ResourceStrings.starterhacks_web}
               />
               <ProjectComponent
-                  color={ResourceStrings.tohacks_color}
                   description={ResourceStrings.tohacks_description}
                   header={ResourceStrings.tohacks_header}
                   id={'proj2'}

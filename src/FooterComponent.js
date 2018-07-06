@@ -10,8 +10,8 @@ class FooterComponent extends Component {
             <div className='container-fluid'>
                 <div className='row'>
                     <div className='col-md-6 leftSide'>
-                        <img className='logo' src={logo_big} />
-                        <h5>(C) 2018 Equitech</h5>
+                        <img className='logo' src={logo_big} alt={ResourceStrings.equitech_logo_alt}/>
+                        <h5>{ResourceStrings.equitech_footer}</h5>
                     </div>
                     <div className='col-md-6 rightSide'>
                         <a href='#proj1'><h4>{ResourceStrings.projects}</h4></a>

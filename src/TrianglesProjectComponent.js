@@ -44,11 +44,13 @@ class TrianglesProjectComponent extends Component {
     }
 
     componentDidMount() {
-      window.addEventListener('scroll', this.animate, { passive: true });
+        window.addEventListener('mousemove', this.animate, { passive: true });
+        window.addEventListener('scroll', this.animate, { passive: true });
     }
 
     componentWillUnmount() {
-      window.removeEventListener('scroll', this.animate);
+        window.removeEventListener('mousemove', this.animate, { passive: true });
+        window.removeEventListener('scroll', this.animate, { passive: true });
     }
 
     render() {

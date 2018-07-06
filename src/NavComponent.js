@@ -8,19 +8,19 @@ class NavComponent extends Component {
         return (
             <Navbar>
           			<Navbar.Header>
-                  <Navbar.Brand>
-                  <h2>
+                    <Navbar.Brand>
+                        <h2>
           					<img className='pull-left' src={logo} alt={ResourceStrings.equitech_logo_alt}/>
           			 	</h2>
-                  </Navbar.Brand>
+                    </Navbar.Brand>
           	 		</Navbar.Header>
           	    <Nav>
-                  <NavItem eventKey={1} href='#proj1'>
-                    <h3>{ResourceStrings.projects}</h3>
-                  </NavItem>
-                  <NavItem eventKey={2} href='#contact'>
-                    <h3>{ResourceStrings.contact}</h3>
-                  </NavItem>
+                    <NavItem eventKey={1} href='#proj1'>
+                        <h3>{ResourceStrings.projects}</h3>
+                    </NavItem>
+                    <NavItem eventKey={2} href='#contact'>
+                        <h3>{ResourceStrings.contact}</h3>
+                    </NavItem>
           	    </Nav>
 	           </Navbar>
         );

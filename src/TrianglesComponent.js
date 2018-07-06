@@ -13,11 +13,6 @@ class TrianglesComponent extends Component {
             height: window.innerHeight
         };
         this.animate = this.animate.bind(this);
-        this.onMouseMove = this.onMouseMove.bind(this);
-    }
-
-    onMouseMove (event) {
-  //  console.log(event);
     }
 
     animate (event) {
@@ -49,12 +44,14 @@ class TrianglesComponent extends Component {
     }
 
     componentDidMount() {
-      setInterval(this.animate, 40);
-      window.addEventListener('mousemove', this.onMouseMove, { passive: true });
+        setInterval(this.animate, 40);
+        window.addEventListener('mousemove', this.animate, { passive: true });
+        window.addEventListener('scroll', this.animate, { passive: true });
     }
 
     componentWillUnmount() {
-      window.removeEventListener('mousemove', this.onMouseMove);
+        window.removeEventListener('mousemove', this.animate);
+        window.removeEventListener('scroll', this.animate);
     }
 
     render() {
@@ -108,7 +105,7 @@ class TrianglesComponent extends Component {
                             width*3/5 + deltaRL, height/4 + deltaLR,
                             width*3/4 + deltaRL, height*3/4 + deltaLR,
                             width*3.5/4 + deltaRL*3, height*2/3 + deltaLR
-                        ]}
+                      ]}
                         fill={'#6dc1dd'}
                         closed={'true'}
                     />

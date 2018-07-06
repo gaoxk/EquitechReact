@@ -10,7 +10,7 @@ class ProjectComponent extends Component {
             <div className='project' id={this.props.id}>
             	<div className='container'>
             		<div className='row'>
-            			<div className={'col-md-6 ' + this.props.id}>
+            			<div className='col-md-6'>
             				<img id='img1' src={sh1} alt={ResourceStrings.img_1_alt + this.props.title}/>
             				<img id='top-img' src={sh2} alt={ResourceStrings.img_top_alt + this.props.title}/>
             				<img id='img2' src={sh3} alt={ResourceStrings.img_2_alt + this.props.title}/>
@@ -21,9 +21,9 @@ class ProjectComponent extends Component {
             				<div className='break'> &nbsp </div>
             				<p>{this.props.description}</p>
                     <a href={this.props.website} >
-                      <button type='button' className='btn'>
+                        <button type='button' className='btn'>
                             <h4>{ResourceStrings.visit}</h4>
-                      </button>
+                        </button>
                     </a>
             			</div>
             		</div>

@@ -8,7 +8,6 @@ module.exports = {
         "ecmaFeatures": {
             "jsx": true
         },
-        "ecmaVersion": 2018,
         "sourceType": "module"
     },
     "plugins": [
@@ -21,7 +20,7 @@ module.exports = {
         "no-undef": 0,
         "indent": [
             "error",
-            4
+            "tab"
         ],
         "linebreak-style": [
             "error",

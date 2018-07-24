@@ -3,7 +3,7 @@ import {Nav, Navbar, NavItem} from 'react-bootstrap';
 import ResourceStrings from './ResourceStrings';
 import logo from './assets/logo.png';
 
-class NavComponent extends Component {
+class Navigate extends Component {
     render() {
         return (
             <Navbar>
@@ -27,4 +27,4 @@ class NavComponent extends Component {
     }
 }
 
-export default NavComponent;
+export default Navigate;

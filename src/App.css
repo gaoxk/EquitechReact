@@ -1,3 +1,7 @@
+* {
+  font-weight: 300 !important;
+}
+
 body, html {
   min-height: 100%;
   max-width: 100%;

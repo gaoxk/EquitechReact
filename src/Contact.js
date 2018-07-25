@@ -4,7 +4,6 @@ import ResourceStrings from './ResourceStrings';
 
 class Contact extends Component {
 	render() {
-		const url = '//xxxx.us13.list-manage.com/subscribe/post?u=zefzefzef&id=fnfgn';
 		return (
 			<div className='contact' id='contact'>
       	<div className='contact-text'>

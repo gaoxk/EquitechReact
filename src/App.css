@@ -198,24 +198,29 @@ button:hover {
   margin-bottom: 20em;
 }
 
-.contact button {
+.contact .button {
   border: 1px solid white;
   border-radius: 100px;
   color: white;
+  width: 25%;
 }
 
-.contact button:hover {
+.contact .button:hover {
   background-color: white;
   color: #6dc1dd;
 }
 
+.contact #mce-EMAIL {
+  transform: translateX(50%);
+}
+
 .contact input {
+  margin-top: 4%;
   border-radius: 10px;
   border-color: white;
   background-color: transparent;
   text-align: center;
   width: 50%;
-  transform: translateX(50%);
   height: 3em;
   color: white;
 }
